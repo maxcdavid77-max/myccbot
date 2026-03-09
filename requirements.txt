@@ -1,2 +1,4 @@
 pyTelegramBotAPI
 faker
+beautifulsoup4
+requests
